@@ -4,7 +4,7 @@ body {
 }
 
 h2 {
-    font-size: 39px;
+    font-size: 50px;
     font-weight: bold;
     color: #363958;
     margin-bottom: 0;
@@ -15,7 +15,7 @@ h2 {
 }
 
 p{
-    font-size: 18px;
+    font-size: 17px;
     margin-bottom: 35px;
     color: #3E3E3E;
 }
@@ -28,16 +28,16 @@ p{
 }
 
 .half-width img {
-    width: 90%;
-    margin-top: 10px;
+    width: 77%;
 }
 .about h3 {
-    font-size: 33px;
+    font-size: 36px;
+    margin-top: 47px;
 }
 .button {
     text-decoration: none;
-    background-image: linear-gradient(45deg, #FF4690, tomato);
-    padding: 16px 22px;
+    background-image: linear-gradient(45deg, #F79671, #FB6A58);
+    padding: 17px 29px;
     border-radius: 5px;
     font-weight: 700;
     color: white;
@@ -50,18 +50,13 @@ section {
 .name {
     color: #FF8367;
 }
-.dream{
-    background-image: url(images/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
-}
 
 .work {
     background-color: #f9f9f9;
     padding-bottom: 189px;
 }
 .work-text p {
-    font-size: 16px;
+    font-size: 17px;
     color: #6C6C6C;
 }
 
@@ -89,7 +84,6 @@ section {
     width: 100%;
 }
 .inquiry{
-
     background-image: url(images/Group_33094_1.png);
     background-repeat: no-repeat;
     background-size: 885px 185px;
@@ -119,7 +113,7 @@ section {
 
 .services a {
     font-size: 42px;
-    color: #FF8367;
+    color: #6264DF;
     font-weight: bold;
 }
 
@@ -134,7 +128,7 @@ section {
 }
 
 .services p {
-    font-size: 16px;
+    font-size: 17px;
     color: #6C6C6C;
 }
 
@@ -148,7 +142,7 @@ section {
 }
 
 .social-connect img {
-    width: 55px;
+    width: 47px;
     margin: 0px 6px;
 }
 

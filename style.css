@@ -122,8 +122,17 @@ section {
     margin: 11px 0px;
     color: #363958;
 }
+.half-width-services{ 
+    width: 26%;
+    float: left;
+    margin-left: 3%;
+    background-color: white;
+    padding: 21px;
+    box-shadow: 0px 1px 3px #dbdada;
+    border-radius: 12px;
+}
 
-.services .half-width-work {
+.services .half-width-services {
     margin-bottom: 30px;
 }
 
@@ -142,7 +151,7 @@ section {
 }
 
 .social-connect img {
-    width: 47px;
+    width: 41px;
     margin: 0px 6px;
 }
 

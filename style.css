@@ -1,25 +1,25 @@
 body {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
-
-   
+    font-family: 'Roboto', sans-serif; 
 }
 
 h2 {
     font-size: 39px;
     font-weight: bold;
-    color: #050b26;
-    
+    color: #363958;
     margin-bottom: 0;
 }
 
 .top-banner h2 {
     margin-top: 60px;
 }
+
 p{
-    font-size: 17px;
-    margin-bottom: 39px;
+    font-size: 18px;
+    margin-bottom: 35px;
+    color: #3E3E3E;
 }
+
 .half-width {
     width: 40%;
     float: left;
@@ -37,35 +37,43 @@ p{
 .button {
     text-decoration: none;
     background-image: linear-gradient(45deg, #FF4690, tomato);
-    padding: 17px 11px;
+    padding: 16px 22px;
     border-radius: 5px;
     font-weight: 700;
     color: white;
+    font-size: 16px;
 }
-
 section {
-    height: 500px;
-    padding: 48px 0;
+    height: 470px;
+    padding: 61px 0px;
 }
-
+.name {
+    color: #FF8367;
+}
 .dream{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
 }
-#dream{
-    background-color: #f5f8ff;
-}
-
 
 .work {
-    background-color: #f4f4f4;
+    background-color: #f9f9f9;
+    padding-bottom: 189px;
+}
+.work-text p {
+    font-size: 16px;
+    color: #6C6C6C;
 }
 
+.work-text h4 {
+    font-size: 23px;
+    color: #363958;
+}
 .header-text {
     text-align: center;
-    font-size: 25px;
+    font-size: 32px;
     margin-bottom: 50px;
+    color: #363958;
 }
 
 .half-width-work{ 
@@ -81,21 +89,76 @@ section {
     width: 100%;
 }
 .inquiry{
-    width: 69%;
- background-image: url(images/Group_33094_1.png);
-  /*! padding: 25px; */
-  background-repeat: no-repeat;
-  background-size: 800px 164px;
+
+    background-image: url(images/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-size: 885px 185px;
     text-align: center;
     display: block;
     margin: auto;
+    height: 100px;
+    padding-top: 89px;
+    background-position: center;
+    margin-top: 7%;
 }
+
 .half-width-inquiry{
     width: 50%;
     float: left;
 }
 
 .half-width-inquiry h1 {
-    font-size: 34px;
+    font-size: 33px;
     color: white;
+    margin-left: 88px;
+}
+
+.half-width-inquiry p {
+    margin-top: 37px;
+}
+
+.services a {
+    font-size: 42px;
+    color: #FF8367;
+    font-weight: bold;
+}
+
+.services h4 {
+    font-size: 20px;
+    margin: 11px 0px;
+    color: #363958;
+}
+
+.services .half-width-work {
+    margin-bottom: 30px;
+}
+
+.services p {
+    font-size: 16px;
+    color: #6C6C6C;
+}
+
+.social-connect {
+    text-align: center;
+}
+
+.social-connect {
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+.social-connect img {
+    width: 55px;
+    margin: 0px 6px;
+}
+
+.social-connect a {
+    text-decoration: none;
+    font-size: 36px;
+    color: #363958;
+}
+
+.social-connect h3 {
+    font-size: 24px;
+    color: #696871;
 }
